@@ -1,0 +1,68 @@
+header {
+    padding: 10px;
+    margin: 20px;
+}
+
+main {
+    margin: 38px;
+}
+
+h1 {
+    font-family: Arial;
+    font-size: 32px;
+    padding: 10px;
+}
+
+h2 {
+    font-family: Arial;
+    font-size: 28px;
+}
+
+img {
+    width: 650px;
+}
+
+p {
+    width: 700px;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 16px;
+    color: black;
+    padding: 10px;
+}
+
+li{
+    font-size: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+    width: 450px;
+}
+
+td, th {
+    border: 1px solid black;
+    width: 20px;
+    height: 30px;
+    font-family: Arial;
+    font-size: 16px;
+}
+
+a:hover {
+    color: rgb(118, 19, 247);
+}
+
+footer {
+    padding: 10px;
+    font-family: Arial;
+    font-size: 16px;
+    background-color: rgb(28, 26, 30);
+    color: rgb(242, 221, 255);
+    width: 100%;
+    margin-top: 40px;
+}
