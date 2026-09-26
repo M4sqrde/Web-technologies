@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Laboratory Work 2</title>
+</head>
+
+<header>
+    <h1 class="hdd">Food Construct</h1>
+    
+    <nav class="sl">
+        <a href="" class="ssl">О нас</a>
+        <a href="" class="ssl">Собрать ланч</a>
+        <a href="" class="ssl">Заказы</a>
+        <a href="#contacts" class="ssl">Контакты</a>
+        <a href="./account.html" class="ssl">Аккаунт</a>
+    </nav>
+
+</header>
+
+<main>
+    <section>
+        <img class="im" src="./images/i.png" alt="Еда">
+        <h2 class="hd">О нас</h2>
+        <p class="tx">Food Construct - доставка бизнес-ланчей в Москве. Мы привезем вам горячую вкусную еду в любую точку города к назначенному времени.</p>
+    </section>
+
+    <section>
+
+        <h2 class="hd">Преимущества Food Construct</h2>
+        
+        <ul class="tx">
+            <li class="sps">Привозим обед к назначенному времени без опозданий</li>
+            <li class="sps">Надежно упаковываем блюда в удобные контейнеры бесплатно</li>
+            <li class="sps">Доставляем ланчи весь день с 7:00 до 23:00</li>
+        </ul>
+
+    </section>
+    
+    <section>
+        <h2 class="hd">Топ-5 популярных блюд</h2>
+
+        <table class="tbl">
+            <tr>
+                <th></th>
+                <th>Название</th>
+                <th>Кол-во заказов в неделю</th>
+                <th>Цена, руб</th>
+            </tr>
+            <tr>
+                <td>1</td> 
+                <td>Лазанья</td> 
+                <td>185</td> 
+                <td>385</td>
+            </tr>
+            <tr>
+                <td>2</td> 
+                <td>Том Ям с креветками</td> 
+                <td>161</td> 
+                <td>365</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Норвежский суп</td>
+                <td>144</td>
+                <td>270</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Жаренная картошка с грибами</td>
+                <td>132</td>
+                <td>150</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Котлеты из курицы с картофельным пюре</td>
+                <td>128</td>
+                <td>225</td>
+            </tr>
+        </table>
+    </section>
+
+    <div id="contacts" class="contacts-block">
+            <form action="https://httpbin.org/post" method="post" enctype="multipart/form-data">  
+            <p class="contacts-block">Позвонить нам +8-800-555-35-35</p>
+            <h2>Форма обратной связи</h2>
+
+            <div class="block">
+                <label class="label" for="FullName">ФИО</label>
+                <input class="authi" type="text" name="FullName" id="FullName">
+            </div>
+
+            <div class="block">
+                <label class="label" for="email">Адрес электронной почты</label>
+                <input class="authi" type="email" name="email" id="email" placeholder="Введите email">
+            </div>
+
+            <div class="block">
+                <label class="label">Откуда вы о нас узнали?</label>
+                <input type="radio" name="radio" id="friends" value="friends"><label for="friends">Друзья</label>
+                <input type="radio" name="radio" id="advertisement" value="advertisement"><label for="advertisement">Реклама</label>
+            </div>
+
+            <div class="block">
+                <label class="label">Категория обращения</label>
+                <select class="authi" name="category">
+                    <option value="suggestion">Предложение</option>
+                    <option value="complaint">Жалоба</option>
+                </select>
+            </div>
+
+            <div class="block">
+                <label class="label" for="message"></label>
+                <textarea class="authi" name="message" id="message" rows="7" placeholder="Текст сообщения"></textarea>
+            </div>
+
+            <div class="block">
+                <label class="label">Вложение</label>
+                <input class="authi" type="file" name="file" id="file">
+            </div>
+
+            <div class="block">
+                <input type="checkbox" name="checkbox" id="checkbox">
+                <label for="checkbox">Даю согласие на обработку персональных данных</label>
+            </div>
+            
+            <button class="authi" type="submit">Отправить</button>
+        </form>
+    </div>
+    </main>
+</html>

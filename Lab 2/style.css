@@ -1,0 +1,142 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.sl {
+    margin-left: 50px;
+}
+
+.ssl {
+    text-decoration: none;
+    color: black;
+    font-family: Arial;
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+.sps {
+    margin-bottom: 5px;
+}
+
+.ssl:hover
+{
+    color: rgb(139, 33, 238);
+}
+
+.hdd{
+    margin-left: 50px;
+    font-size: 32px;
+    font-family: arial;
+    font-weight: bold;
+}
+
+.hd {
+    margin-left: 50px;
+    font-size: 26px;
+    font-family: arial;
+}
+
+.tx {
+    margin-left: 50px;
+    font-size: 18px;
+    font-family: arial;
+    width: 850px;
+}
+
+.im {
+    width: 650px;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+.tbl {
+    margin-left: 50px;
+    border-collapse: collapse;
+    text-align: center;
+    width: 550px;
+    margin-bottom: 50px;
+}
+
+td, th {
+    width: 20px;
+    height: 30px;
+    font-family: Arial;
+    font-size: 18px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+.block{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.label {
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+#contacts.contacts-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;     
+    padding: 40px;
+    background-color: #c8a3ff83; 
+    font-family: arial;
+    font-size: 18px;
+}
+
+.bg {
+    background-image: url('./images/bg.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.authf {
+    min-height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    font-family: arial;
+}
+
+.authfr {
+    background-color: white;
+    padding: 40px 35px;
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+}
+
+.ttl {
+    text-align: center;
+    font-size: 24px;
+    color: #4a148c;
+}
+
+.auth {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 18px;
+}
+
+.authl {
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.authi {
+    padding: 5px;
+    font-size: 16px;
+    font-style: arial;
+}
+
+.authc {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
