@@ -1,34 +1,29 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <title>Laboratory Work 2 </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Kudachenko Dmitrii Lab 2</title>
 </head>
-<body class="bg">
-
-    <div class="authf">
-        <form class="authfr" action="https://httpbin.org/post" method="post">
-            <h2 class="ttl">Вход в аккаунт</h2>
-
-            <div class="auth">
-                <label class="authl" for="login">Логин</label>
-                <input class="authi" type="text" name="login" id="login" placeholder="Введите логин" required>
-            </div>
-
-            <div class="auth">
-                <label class="authl" for="password">Пароль</label>
-                <input class="authi" type="password" name="password" id="password" placeholder="Введите пароль" required>
-            </div>
-
-            <div class="authc">
-                <input type="checkbox" name="remember" id="remember">
-                <label for="remember">Запомнить меня</label>
-            </div>
-
-            <button class="auth-btn" type="submit">Войти</button>
-        </form>
-    </div>
-
+<body class="auth">
+    <form action="https://httpbin.org/post" method="post" class="auth">
+        <div>
+            <h1>Войти в аккаунт</h1>
+        </div>
+        <div>
+            <label for="login">Логин</label>
+            <input class="pole" type="text" id="login" name="login" placeholder="Введите логин">
+        </div>
+        <div>
+            <label for="password">Пароль</label>
+            <input class="pole" type="password" id="password" name="password" placeholder="Введите пароль">
+        </div>
+        <div>
+            <label for="checkbox">Запомнить меня</label>
+            <input type="checkbox" id="checkbox" name="remember" class="chk">
+        </div>
+        <button class="btn" type="submit">Войти</button>
+    </form>
 </body>
 </html>

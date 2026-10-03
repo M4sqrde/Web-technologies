@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Kudachenko Dmitrii Lab 2</title>
+</head>
+<body class="auth">
+    <img src="./images/bg.jpg" alt="background" class="bg">
+    <form action="https://httpbin.org/post" method="post" enctype="multipart/form-data" class="auth">
+        <div>
+            <h1>Обратная связь</h1>
+        </div>
+        <div>
+            <label for="fio">ФИО</label>
+            <input class="pole" type="text" id="fio" name="fio" placeholder="Введите ФИО">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input class="pole" type="email" id="email" name="email" placeholder="Введите Email">
+        </div>
+        <div>
+            <label>Откуда узнали о нас</label><br>
+            <label><input type="radio" name="source" value="advertising" checked> Реклама</label>
+            <label><input type="radio" name="source" value="friends"> Друзья</label>
+            <label><input type="radio" name="source" value="internet"> Интернет</label>
+        </div>
+        <div>
+            <label for="type">Тип обращения</label>
+            <select class="pole" id="type" name="type">
+                <option value="complaint">Жалоба</option>
+                <option value="suggestion">Предложение</option>
+            </select>
+        </div>
+        <div>
+            <label for="message">Текст сообщения</label>
+            <textarea class="pole" id="message" name="message" rows="5" placeholder="Введите сообщение"></textarea>
+        </div>
+        <div>
+            <label for="file">Вложения</label>
+            <input class="pole" type="file" id="file" name="file">
+        </div>
+        <div>
+            <label for="agree">Даю согласие на обработку персональных данных</label>
+            <input type="checkbox" id="agree" name="agree" class="chk" required>
+        </div>
+        <button class="btn" type="submit">Отправить</button>
+    </form>
+</body>
+</html>

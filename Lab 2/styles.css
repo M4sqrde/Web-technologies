@@ -1,0 +1,157 @@
+body {
+    background-color: #0d031c;
+    margin: 0;
+}
+
+.img1 {
+    height: 350px;
+    margin-right: 5px;
+    margin-top: 20px;
+}
+
+.otc {
+    margin-left: 25px;
+}
+
+.links {
+    font-size: 18px;
+    margin-left: 25px;
+    text-decoration: none;
+    font-family: helvetica;
+    color: #f0e6fc;
+}
+
+a:hover {
+    color: #b73bb7;
+}
+
+.ttle {
+    font-family: helvetica;
+    font-size: 32px;
+    margin-left: 25px;
+    margin-top: 10px;
+    color: #c7a3cc;
+}
+
+.scndttle {
+    font-family: helvetica;
+    font-size: 24px;
+    color: #c7a3cc;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+
+.txt   {
+    width: 700px;
+    font-family: helvetica;
+    font-size: 18px;
+    color: #f0e6fc;
+    margin-left: 25px;
+}
+
+.sp {
+    padding: 0;
+    margin-left: 25px;
+    color: #f0e6fc;
+    font-family: helvetica;
+    font-size: 18px;
+}
+
+.tabl {
+    margin-top: 0;
+    margin-left: 25px;
+    text-align: center;
+    border-collapse: collapse;
+    border-style: solid;
+    color: #f0e6fc;
+}
+
+.tbl {
+    border: 3px, solid, #f0e6fc;
+    font-family: helvetica;
+    font-size: 18px;
+    padding: 7px;
+}
+
+.ftr {
+    background-color: #25083a;
+    margin-top: 30px;   
+    padding-top: 1px;
+    padding-bottom: 20px;
+}
+
+.chk:checked {
+    background-color: #25083a;
+    border: 4px solid #f0e6fc;
+}
+
+.chk {
+    background-color: #f0e6fc;
+    appearance: none;
+    height: 20px; width: 20px;
+    border-radius: 20px;
+}
+
+.btn:hover {
+    background-color: #b73bb7;
+}
+
+.btn {
+    border: none;
+    background-color: #25083a;
+    color: #f0e6fc;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: helvetica;
+    padding: 15px 25px 15px 25px;
+    border-radius: 15px;
+}
+
+.pole  {
+    background-color: #f0e6fc;
+    border-radius: 15px;
+    border: 3px solid #25083a;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+body.auth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #0d031c;
+}
+
+.bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+form.auth {
+    background-color: #170625;
+    padding: 30px;
+    border-radius: 20px;
+    width: 350px;
+    position: relative;
+    z-index: 1;
+}
+
+form.auth div {
+    margin-bottom: 15px;
+}
+
+form.auth label, form.auth h1 {
+    color: #f0e6fc;
+    font-family: helvetica;
+}
+
+form.auth .pole {
+    width: 100%;
+    box-sizing: border-box;
+}
